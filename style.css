@@ -1,0 +1,13 @@
+.studio {
+  margin: 4rem 7%;
+  padding: 3rem;
+  border-radius: 18px;
+  background: #ddc9b5;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 7%;
+  background: #30261f;
+  color: #fff;
+}
