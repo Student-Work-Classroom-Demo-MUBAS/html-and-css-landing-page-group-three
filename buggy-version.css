@@ -208,7 +208,7 @@ footer {
   }
 
   .feature-row {
-   /* flex-direction: column; */
+   flex-direction: column; 
    /* flex-wrap: nowrap; */
     gap: 1rem;
     padding: 0 5%;
