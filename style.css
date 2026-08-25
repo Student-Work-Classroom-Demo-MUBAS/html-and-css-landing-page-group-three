@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   font-family: "Playfair Display", Georgia, serif;
   color: #30261f;
   background: #f5efe7;
@@ -72,6 +72,7 @@ h1 {
   margin: .4rem 0 1rem;
 }
 
+
 .button {
   display: inline-block;
   margin-top: 1rem;
@@ -81,8 +82,6 @@ h1 {
   color: #fff;
   text-decoration: none;
 }
-
-
 .feature-box {
   border: 2px solid #cdb9a6;
   background: #fffaf5;
