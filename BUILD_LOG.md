@@ -54,11 +54,11 @@
 
 
 
-### Bug #5 – Uchindami Mkanawire (Missing `box-sizing: border-box`)
-- **Location:** `buggy-version.css` – removed the `* { box-sizing: border-box; }` rule.
-- **Screenshot:** ![Bug #5](screenshots/bug5.png)
-- **Explanation:** Without `box-sizing`, the padded feature cards exceed 100% width on mobile, causing overflow.
-- **Fix:** Add `box-sizing: border-box;` back to the universal selector.
+### Bug #5 – Uchindami Mkanawire (Missing or overidden `box-sizing: border-box`)
+- **Location:** `buggy-version.css` – `box-sizing: content-box; `.
+- **Screenshot:** [alt text](image-2.png))
+- **Explanation:** The `box-sizing: content box; `in media query overides the `* { box-sizing: border-box;}*`so the padded feature cards exceed 100% width on mobile, causing overflow.
+- **Fix:** remove `box-sizing: content-box;` in flex box media query, i.e, flex box then uses `* { box-sizing: border-box;}*`.
 
 ---
 
