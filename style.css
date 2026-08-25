@@ -53,4 +53,60 @@
   .feature-box {
     width: 100%;
   }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  color: #30261f;
+  background: #f5efe7;
+  line-height: 1.6;
+}
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 7%;
+  background: #30261f;
+}
+
+.brand, .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 7%;
+  background: #e8d9ca;
+}
+
+.hero-copy {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 18px;
 }
