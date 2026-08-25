@@ -92,7 +92,7 @@ h1 {
 
 .feature-row {
   display: flex;
-  flex-wrap: wrap;
+flex-wrap: nowrap;
   gap: 1.25rem;
   padding: 0 7%;
 }
@@ -151,7 +151,7 @@ footer {
 }
 
 
-@media (max-width: 640px) {
+ @media (max-width: 640px) { 
   
   .site-nav {
     flex-direction: column;
@@ -209,8 +209,8 @@ footer {
   }
 
   .feature-row {
-    flex-direction: column;
-    flex-wrap: nowrap;
+   /*flex-direction: column;*/
+   /* flex-wrap: nowrap; */
     gap: 1rem;
     padding: 0 5%;
   }
