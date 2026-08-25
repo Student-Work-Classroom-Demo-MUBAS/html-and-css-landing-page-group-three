@@ -1,5 +1,5 @@
 
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -102,6 +102,7 @@ h1 {
   padding: 1.5rem;
   border-radius: 14px;
   box-shadow: 0 8px 24px rgba(48, 38, 31, .09);
+
 }
 
 .feature-box a {
@@ -218,6 +219,8 @@ footer {
     width: 100%;
     padding: 1.2rem;
     border-radius: 10px;
+    box-sizing: content-box;
+
   }
 
   .feature-box h3 {
