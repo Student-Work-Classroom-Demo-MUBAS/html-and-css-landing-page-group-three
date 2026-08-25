@@ -14,6 +14,7 @@ body {
   background: #f5efe7;
   line-height: 1.6;
 }
+
 .site-nav {
   display: flex;
   justify-content: space-between;
@@ -126,11 +127,23 @@ h1 {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   margin-top: 4rem;
   padding: 2rem 7%;
   background: #30261f;
   color: #fff;
+  
+}
+.visit {
+  margin: 0 auto;
+  background:#e8d9ca;
+  border-radius: 20px;
+  color:#30261F;
+  margin-bottom: 5rem;
+  max-width: 80%;
   text-align: center;
+  padding: 20px 40px;
 }
 
 
@@ -155,5 +168,12 @@ footer {
 
   .feature-box {
     width: 100%;
+  }
+  .visit {
+    margin-bottom: 2rem;
+  }
+
+  .footer{
+    align-items: center;
   }
 }
